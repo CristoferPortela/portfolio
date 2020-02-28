@@ -1,0 +1,79 @@
+@font-face 
+    font-family: roboto
+    src: url(./assets/Roboto-Regular.ttf)
+
+html 
+    scroll-behavior: smooth
+
+body, body *
+    margin: 0
+    padding: 0
+    text-decoration: none
+    list-style: none
+    color: #050505
+    font-size: 11.5pt
+    font-family: roboto, Helvetica, Tahoma, Arian, sans-serif
+
+.items-center 
+    align-items: center
+.font-small
+    font-size: .85em
+
+@media screen and ( max-width: 720px )
+    .hide-sm
+        visibility: hidden
+        display: none
+    .stretch-sm
+        justify-content: stretch
+@media screen and (min-width: 992px) 
+    .none 
+        display: none
+
+$primary: #4b0082
+$secondary: #ffbd45
+
+.bgprimary
+    background-color: $primary
+.textprimary
+    color: $primary
+.transparent
+    background-color: rgba(0,0,0,0)
+
+.bgsecondary
+    background-color: $secondary
+.textsecondary
+    color: $secondary
+
+.bg-lighter
+    background-color: #f8fafb
+
+.font-12
+    font-size: 12pt
+
+.font-26
+    font-size: 26pt
+
+.full-size
+    max-width: 100%
+.rounded
+    border-radius: 7px
+    box-shadow: 1px 1px 3px rgba(0,0,0,.25)
+
+.float-button
+    position: fixed
+    bottom: 2%
+    right: 3%
+    border-radius: 50%
+    width: 57px
+    height: 57px
+    @media screen and ( min-width: 992px )
+        width: 50px
+        height: 50px
+        right: 2%
+    border: none
+    box-shadow: 2px 2px 4px rgba(0,0,0,.4)
+
+.margin-top-5
+    margin-top: 5px
+.light-weight
+    font-weight: 100
