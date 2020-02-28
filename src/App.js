@@ -1,16 +1,19 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import logo from './logo.svg';
-import './App.css';
+import './assets/liz.min.css';
+import 'material-icons';
+import './App.sass';
 import Nav from './components/Nav';
+import Header from './components/Header';
 import Body from './components/Body';
 import Routes from './Routes';
 import Footer from './components/Footer';
 
-function App() {
+export default () => {
   return (
       <BrowserRouter>
         <Nav/>
+        <Header/>
         <Body>
           <Routes/>
         </Body>
@@ -18,5 +21,3 @@ function App() {
       </BrowserRouter>
   );
 }
-
-export default App;
