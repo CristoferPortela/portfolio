@@ -12,7 +12,9 @@ body, body *
     list-style: none
     color: #050505
     font-size: 11.5pt
-    font-family: roboto, Helvetica, Tahoma, Arian, sans-serif
+    font-family: roboto, Helvetica, Tahoma, Arial, sans-serif
+p
+    font-family: Helvetica, Tahoma, Arial, sans-serif
 
 .items-center 
     align-items: center
@@ -77,3 +79,20 @@ $secondary: #ffbd45
     margin-top: 5px
 .light-weight
     font-weight: 100
+
+.pad-container
+    box-sizing: border-box
+    padding-left: 1.5%
+    padding-right: 1.5%
+    @media screen and (min-width: 508px)
+        padding-left: 2%
+        padding-right: 3%
+    @media screen and (min-width: 758px)
+        padding-left: 4%
+        padding-right: 5%
+    @media screen and (min-width: 992px)
+        padding-left: 6%
+        padding-right: 6%
+    @media screen and (min-width: 1252px)
+        padding-left: 8%
+        padding-right: 8%
