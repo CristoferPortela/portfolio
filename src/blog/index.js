@@ -21,7 +21,7 @@ export default {
             <p>
                 Há uma imensidão de benefícios em se ter um site hoje, assim como antigamente
                 usava-se muito o jornal empresso, hoje em dia usamos a internet numa escala
-                muito maior, veja na lsita abaixo algumas vantagens:
+                muito maior, veja na lista abaixo algumas vantagens:
             </p>
             <ul>
                 <li>
@@ -57,6 +57,21 @@ export default {
                     </li>
                 </ol>
             </div>
+
+            <blockquote className="pad-container margin-top-20 margin-bottom-10 bg-grey-ddd pad-top-20 pad-bottom-20">
+                <h3 className="font-12 margin-bottom-10">
+                    Pense no seguinte
+                </h3>
+                <p>
+                    Será que eu conheceria alguma empresa sem a internet?
+                    Seja ela uma grande empresa, como Amazon que é o maior 
+                    ecommerce do Brazil, ou um material de construção da cidade
+                    que decidiu que faria um site para quando alguém pesquise no
+                    google "materiais de construção na cidade ZZZ" apareça a loja
+                    dele.
+                </p>
+            </blockquote>
+
             <h5>
                 Se interessou?
             </h5>
