@@ -28,8 +28,8 @@ export default () => {
                         <p>
                             Quer um site para sua empresa? Um Blog? Um App? Um sistema de 
                             gerenciamento para sua empresa? Por quê não marcamos uma reunião,
-                            pelo skype ou conversamos pelo <a href="https://api.whatsapp.com/send?phone=5542984179233&text=Vamos%20conversar%20sobre%20sites" rel="noopener noreferrer">
-                            whatsapp</a> ou pela <a>página do facebook</a>?
+                            pelo skype ou conversamos pelo <a target="_blank" href="https://api.whatsapp.com/send?phone=5542984179233&text=Vamos%20conversar%20sobre%20sites" rel="noopener noreferrer">
+                            whatsapp</a> ou pela <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com">página do facebook</a>?
                         </p>
                     </div>
                 </section>
