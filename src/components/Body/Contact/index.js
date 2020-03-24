@@ -23,7 +23,7 @@ export default () => {
                 </div>
 
                 <div className="_center row-flex flex-lg-16">
-                    <div className="flex-lg-4 margin-bottom-10">
+                    <div className="flex-lg-4 margin-bottom-20">
                         <h3>
                             Por telefone
                         </h3>
@@ -33,10 +33,14 @@ export default () => {
                             whatsapp
                         </p>
                         <a rel="noreferrer noopener" href="tel:40028922" className="row-flex items-center">
-                            <i className="material-icons contact-circle whatsapp">phone</i>(42) 98417-9233
+                            <i className="material-icons contact-circle tel">phone</i>(42) 98417-9233
+                        </a>
+                        <br/>
+                        <a rel="noreferrer noopener" href="https://api.whatsapp.com/send?phone=5542984179233&text=Vamos%20falar%20sobre%20neg%C3%B3cios!">
+                            <i className="material-icons contact-circle whatsapp">phone</i> Por WhatsApp
                         </a>
                     </div>
-                    <div className="flex-lg-4 margin-bottom-10">
+                    <div className="flex-lg-4 margin-bottom-20">
                         <h3>
                             Email
                         </h3>
@@ -50,7 +54,7 @@ export default () => {
                         <i className="material-icons email">email</i> cristoferportela@gmail.com
                         </a>
                     </div>
-                    <div className="flex-lg-4 margin-bottom-10">
+                    <div className="flex-lg-4 margin-bottom-20">
                         <h3>
                             Paǵina do facebook
                         </h3>
